@@ -5,8 +5,8 @@ This SQL project analyzes COVID-19 data focusing on deaths and vaccinations.
 ### Data Source
 The data for this project was sourced from an Excel file containing information on COVID-19 cases, deaths, vaccinations, population, and continent details. The Excel file was obtained from a reliable source such as the World Health Organization (WHO) or the Centers for Disease Control and Prevention (CDC).
 
-[DEATHS EXCEL FILE]()
-[VACCINATION EXCEL FILE]()
+[DEATHS](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/f760736f09d10666779125b8d019bedf60b61645/CovidDeaths.xlsx)
+[VACCINATIONS]()
 
 ### Importing Data
 Before performing any analysis, the data from the Excel file was imported into the SQL database. This process involved converting the Excel file into a format compatible with the database management system (DBMS) being used (e.g., CSV format) and then using SQL commands or a database management tool to import the data into the appropriate tables.
