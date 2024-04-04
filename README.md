@@ -43,7 +43,7 @@ We analyzed COVID-19 data at the continent level to identify continents with the
 ## Global Numbers
 
 We provided an overview of global COVID-19 statistics, including total cases, total deaths, vaccination coverage, and other relevant metrics. This summary helps in understanding the overall impact of the pandemic on a global scale.
-![Image]()
+![Image](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/fbfec37b901e79b956ef94968caae4a231d59052/Screenshots/1.png)
 
 ## Total Population vs Vaccinations
 
