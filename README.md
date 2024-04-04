@@ -50,7 +50,7 @@ We provided an overview of global COVID-19 statistics, including total cases, to
 By comparing the total population with vaccination statistics, we assessed the coverage and progress of COVID-19 vaccination campaigns. This analysis helps in monitoring vaccination efforts and identifying areas that may need additional support.
 
 
-![image](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/dc8d69202e41b581f08bdfdc6c601803548c0543/Screenshots/2.png)
+![image](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/0bc396f817ffed2cfdc62c1c081efd0f85d25ef9/1.png)
 
 ## Using Common Table Expressions (CTE)
 
