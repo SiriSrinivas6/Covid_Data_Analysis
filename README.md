@@ -22,7 +22,7 @@ The data for this project was sourced from an Excel file containing information 
    
 4. **Infection Rate by Location and Date**: This query identifies the highest infection count and infection percentage by location and date. It provides insights into the temporal trends of COVID-19 infections in different regions.
 
-![Image]()
+![Image](1.png)
 
 ### Query Set 2:
 1. **Rolling People Vaccinated**: This query calculates the rolling number of people vaccinated over time by location. It considers the cumulative sum of new vaccinations to track the progress of vaccination campaigns in various regions.
