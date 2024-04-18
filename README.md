@@ -9,7 +9,7 @@ This README provides a detailed explanation of the SQL queries used for the Tabl
 The data for this project was sourced from an Excel file containing information on COVID-19 cases, deaths, vaccinations, population, and continent details. The Excel file was obtained from a reliable source such as the World Health Organization (WHO) or the Centers for Disease Control and Prevention (CDC).
 
 [DEATHS](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/f760736f09d10666779125b8d019bedf60b61645/CovidDeaths.xlsx)
-[VACCINATIONS](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/a027c56baa96aaa0ad1c0dd5cb91d9208de46f0e/CovidVaccinations.xlsx
+[VACCINATIONS](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/a027c56baa96aaa0ad1c0dd5cb91d9208de46f0e/CovidVaccinations.xlsx)
 
 ## Queries
 
