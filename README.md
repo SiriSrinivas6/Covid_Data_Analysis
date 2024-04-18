@@ -2,68 +2,42 @@
 
 This SQL project analyzes COVID-19 data focusing on deaths and vaccinations.
 
+## Overview
+This README provides a detailed explanation of the SQL queries used for the Tableau project, focusing on analyzing COVID-19 data. These queries retrieve and process data from the PortfolioProject database to derive meaningful insights for visualization in Tableau dashboards.
+
 ### Data Source
 The data for this project was sourced from an Excel file containing information on COVID-19 cases, deaths, vaccinations, population, and continent details. The Excel file was obtained from a reliable source such as the World Health Organization (WHO) or the Centers for Disease Control and Prevention (CDC).
 
 [DEATHS](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/f760736f09d10666779125b8d019bedf60b61645/CovidDeaths.xlsx)
-[VACCINATIONS](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/a027c56baa96aaa0ad1c0dd5cb91d9208de46f0e/CovidVaccinations.xlsx)
+[VACCINATIONS](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/a027c56baa96aaa0ad1c0dd5cb91d9208de46f0e/CovidVaccinations.xlsx
 
-### Importing Data
-Before performing any analysis, the data from the Excel file was imported into the SQL database. This process involved converting the Excel file into a format compatible with the database management system (DBMS) being used (e.g., CSV format) and then using SQL commands or a database management tool to import the data into the appropriate tables.
+## Queries
 
-### Database Schema
-The data was structured in the SQL database according to a predefined schema that accurately represents the various attributes and relationships present in the dataset. The schema was designed to facilitate efficient querying and analysis of the COVID-19 data.
+### Query Set 1:
+1. **Total Cases and Deaths**: This query calculates the total number of COVID-19 cases, total deaths, and the death percentage globally. It provides an overview of the severity of the pandemic.
+   
+2. **Total Death Count by Location**: This query retrieves the total death count for each location, excluding specific entities like 'World', 'European Union', and 'International'. It helps in understanding the impact of COVID-19 on different regions.
+   
+3. **Infection Rate by Location**: This query determines the highest infection count and infection percentage by location. It identifies regions with the highest spread of the virus relative to their population, aiding in understanding the severity of the outbreak.
+   
+4. **Infection Rate by Location and Date**: This query identifies the highest infection count and infection percentage by location and date. It provides insights into the temporal trends of COVID-19 infections in different regions.
 
+![Image]()
 
+### Query Set 2:
+1. **Rolling People Vaccinated**: This query calculates the rolling number of people vaccinated over time by location. It considers the cumulative sum of new vaccinations to track the progress of vaccination campaigns in various regions.
+   
+2. **Percentage of Population Vaccinated**: This query computes the percentage of the population vaccinated over time by location. It utilizes the rolling number of people vaccinated to assess the vaccination coverage and its impact on controlling the spread of COVID-19.
 
-## Selecting Data
+## Usage
+1. **Executing Queries**: Run the provided SQL queries in SQL Server Management Studio or any compatible tool connected to the PortfolioProject database.
+   
+2. **Data Analysis**: Analyze the query results to understand COVID-19 trends and patterns. Examine the data to identify key insights relevant to the Tableau dashboard.
+   
+3. **Integration with Tableau**: Utilize the obtained data in Tableau to create visualizations for the dashboard. Design interactive charts and graphs to present the analyzed COVID-19 data effectively.
 
-For this project, we retrieved data from a reliable source such as the World Health Organization (WHO) or the Centers for Disease Control and Prevention (CDC). The dataset includes information on COVID-19 cases, deaths, vaccinations, population, and continent details. The data is structured in a way that allows us to perform various analyses and gain insights into the impact of COVID-19 across different regions.
+![Image]()
 
-## Total Cases vs Total Deaths
+## Contributors
+- Siri S
 
-To analyze the likelihood of dying if contracting COVID-19 in a specific country, we compared the total number of confirmed cases with the total number of deaths. This comparison provides valuable insights into the severity of the outbreak in different countries and helps in understanding the fatality rate.
-
-## Total Cases vs Population
-
-By comparing the total number of COVID-19 cases with the population of each country, we calculated the percentage of the population that contracted COVID-19. This analysis helps in understanding the spread of the virus and its impact relative to the population size.
-
-## Countries with Highest Infection Rate Compared to Population
-
-We identified countries with the highest infection rates relative to their population size by calculating the ratio of total cases to population. This analysis helps in identifying regions that have been disproportionately affected by the pandemic.
-
-## Countries with Highest Death Count per Population
-
-To identify countries with the highest death counts per population, we calculated the ratio of total deaths to population. This analysis helps in understanding the mortality rate and the impact of COVID-19 on different populations.
-
-## Breakdown by Continent
-
-We analyzed COVID-19 data at the continent level to identify continents with the highest death counts per population. This breakdown helps in understanding regional variations in the impact of the pandemic and facilitates targeted interventions.
-
-## Global Numbers
-
-We provided an overview of global COVID-19 statistics, including total cases, total deaths, vaccination coverage, and other relevant metrics. This summary helps in understanding the overall impact of the pandemic on a global scale.
-
-
-## Total Population vs Vaccinations
-
-By comparing the total population with vaccination statistics, we assessed the coverage and progress of COVID-19 vaccination campaigns. This analysis helps in monitoring vaccination efforts and identifying areas that may need additional support.
-
-
-![image](https://github.com/SiriSrinivas6/Covid_Data_Analysis/blob/0bc396f817ffed2cfdc62c1c081efd0f85d25ef9/1.png)
-
-## Using Common Table Expressions (CTE)
-
-We utilized Common Table Expressions (CTEs) to organize and simplify complex queries. CTEs allowed us to break down the analysis into smaller, more manageable steps and improve the readability of our SQL code.
-
-## Temporary Table
-
-Temporary tables were used to store intermediate results during analysis. By storing intermediate results in temporary tables, we were able to optimize performance and streamline the execution of complex queries.
-
-## Filtering by Continent
-
-We filtered the data to focus only on continents with available information, such as Africa, Asia, Europe, North America, South America, and Oceania. The data was ordered by specific criteria to facilitate meaningful comparisons and insights.
-
-## Creating a View for Visualizations
-
-A view was created to store pre-processed data for easier access and visualization purposes. This view encapsulates the results of our analysis and can be queried directly to generate visualizations or further analyze the data.
