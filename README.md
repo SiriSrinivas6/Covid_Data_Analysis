@@ -36,7 +36,7 @@ The data for this project was sourced from an Excel file containing information 
    
 3. **Integration with Tableau**: Utilize the obtained data in Tableau to create visualizations for the dashboard. Design interactive charts and graphs to present the analyzed COVID-19 data effectively.
 
-![Image]()
+![Image](2.png)
 
 ## Contributors
 - Siri S
